@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d94ea363ebec7e47b9524870ff53fd0, type: 3}
+  m_Name: AudioQuestScriptable
+  m_EditorClassIdentifier: 
+  itemId: b3c3c020-1826-4327-bbbd-2ced20bfe071
+  _answer:
+  - 1
+  - 2
+  - 3
+  - 4
+  _rightAnswerId: 0
+  _audio: {fileID: 8300000, guid: ad3d78dfd2ccef0458714449b84d9ca4, type: 3}
