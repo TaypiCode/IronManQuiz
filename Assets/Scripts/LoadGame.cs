@@ -51,7 +51,6 @@ public class LoadGame : MonoBehaviour
         FindObjectOfType<SaveGame>().SaveJson(_save);
         LoadData();
     }
-
     public void LoadData()
     {
         if (_save != null)
@@ -72,7 +71,7 @@ public class LoadGame : MonoBehaviour
             _mainMenu.SetClearLevelBtns();
         }
         _firstLoad = false;
-        if(GameData.CompletedLevels % 2 == 0)
+        if(GameData.CompletedLevels % 2 == 0 && GameData.CompletedLevels > 0)
         {
             RateUsScript.ShowRateUs();
         }
