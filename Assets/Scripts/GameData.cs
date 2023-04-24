@@ -61,5 +61,9 @@ public static class GameData
             _completedLevels++;
             _scoreReached = CalculateScore(timeLeft, _questions.Count);
         }
+        else
+        {
+            _scoreReached = 0;
+        }
     }
 }

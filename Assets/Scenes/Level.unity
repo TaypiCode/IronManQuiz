@@ -720,6 +720,7 @@ MonoBehaviour:
   _headerText: {fileID: 1018137393}
   _scoreText: {fileID: 1443421502}
   _showEffect: {fileID: 311199195}
+  _adsBtn: {fileID: 1451687597}
 --- !u!114 &311199195
 MonoBehaviour:
   m_ObjectHideFlags: 0

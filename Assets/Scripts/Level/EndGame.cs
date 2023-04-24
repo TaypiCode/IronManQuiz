@@ -10,6 +10,7 @@ public class EndGame : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _headerText;
     [SerializeField] private TextMeshProUGUI _scoreText;
     [SerializeField] private ShowEffect _showEffect;
+    [SerializeField] private GameObject _adsBtn;
     public void ShowCanvas(bool isWin)
     {
         if (isWin)
@@ -23,6 +24,7 @@ public class EndGame : MonoBehaviour
         _scoreText.text = "Вы получили " + GameData.ScoreReached + " очков";
         _canvas.SetActive(true);
         _showEffect.Show(0);
+        _adsBtn.SetActive(!GameData.StartedLevelComplete);
     }
     public void ToMenu()
     {
